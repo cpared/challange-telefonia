@@ -2,6 +2,11 @@
 
 ## Tabla de contenidos
 
+- Introduccion
+- Instalacion
+- Como usarlo
+- Como correr los test
+
 ## Introduccion
 
 El siguiente proyecto es un challange tecnico el cual representa el desarrollo de una app
@@ -76,9 +81,13 @@ Amigos: Las primeras 10 llamadas hacia un amigo son sin costo
 
 ## Instalacion
 
+Podes clonar el repo y luego correr los siguientes comandos para dejar listo el ambiente de desarrollo local
+
 ```bash
 go mod tidy
 ```
+
+Para buildear el proyecto
 
 ```bash
 go build
