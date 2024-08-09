@@ -47,7 +47,6 @@ func main() {
 
 	response := mapToResponse(servResponse)
 	jsonData, err := json.MarshalIndent(response, "", "  ")
-	// jsonData, err := json.Marshal(response)
 	if err != nil {
 		fmt.Println(err)
 		return
